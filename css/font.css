@@ -1,0 +1,16 @@
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#introduce {
+    font-weight: bold;
+    line-height: 70px;
+    color: white;
+}
+#introduce h1{    
+    font-size: 3.5rem;
+    color: white;
+}
+#introduce p{
+    font-size: 1.3rem;
+}

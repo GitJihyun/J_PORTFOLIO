@@ -1,0 +1,48 @@
+.card {
+    display: table;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align:center;
+}
+.card-main{
+    height: 720px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../src/cc-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+#introduce{
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+.card-about{
+    background-color:  #F2F4F7;
+    height:350px;
+    padding: 5% 10%;
+}
+.card-skills{
+    background-color:  #F2F4F7;
+    height:550px;
+    padding: 5% 10%;
+}
+.card-portfolio{
+    background-color:  #F2F4F7;
+    padding: 5% 10%;
+}
+.card-experience{
+    background-color:  yellow;
+}
+.card-contact{
+    background-color:  yellowgreen;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer p{
+    font-size: 2rem;
+}

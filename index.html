@@ -1,8 +1,152 @@
+<!DOCTYPE html>
 <html>
-    <header>
-        <title>고통받는다 ㄹㅇ</title>
-    </header>
+    <head>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/card.css">
+        <link rel="stylesheet" type="text/css" href="css/font.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/card_about.css">
+        <link rel="stylesheet" type="text/css" href="css/card_skills.css">
+        <link rel="stylesheet" type="text/css" href="css/card_portfolio.css">
+        <link rel="stylesheet" type="text/css" href="css/card_contact.css">
+        
+
+        <script type="text/javascript" src="js/nav.js"></script>
+        <title>Portfolio</title>        
+    </head>    
     <body>
-        <p>abc 123</p>        
+        <div class = "container">
+            <!--상단 네비게이션 바-->
+            <header>
+                <div class="wrapper">
+                    <h1 id = "Logo">스터디</h1>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">Main</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            <!--카드리스트-->
+
+            <!--메인카드-->
+            <section class = "card card-main">
+                <div id="introduce">
+                        <img src="src/selfie.png" style="width:200px;height: 200px;">
+                        <h1>지현</h1>
+                        <p>연구실 도비, 슬픈 복학생, 방구석 기타쟁이</p>
+                        
+                </div>
+            </section>
+
+            <!--About 파트-->
+            <section class = "card card-about" id="about">
+                <div class="about-box">
+                    <div class="about-About">
+                        <h1>About</h1><br>
+                        <p>안녕하세요! 저는 Web, 안드로이드, IOS, ML, 핀테크에 관심이 많은 대학생입니다</p>
+                    </div>
+                    <div class="about-BasicInfo">
+                        <h1>Basic Information</h1><br>
+                        <p>AGE: 23<br><br>EMAIL: jihyun4133@gmail.com<br><br>LANGUAGE: Korean, English</p>
+                    </div>                    
+                </div>
+            </section>
+
+            <!--Skills 파트-->
+            <section class = "card card-skills" id="skills">
+                <div class = "skills">
+                <h1>저는 무엇을 할 수 있을까요?</h1>
+                <br><br>
+                <div class = "skills-box">
+                    
+                    <!--1행-->
+                    <div class = "row">
+                        <div class = "cell" >
+                            <img src = "sample/html.png">
+                        </div>
+                        <div class = "cell">
+                            <img src = "sample/css.png">
+                        </div>
+                        <div class = "cell">
+                            <img src = "sample/js.png">
+                        </div>                      
+                    </div>
+                    <!--2행-->
+                    <div class = "row">
+                        <div class = "cell">
+                            <img src = "sample/react.png">
+                        </div>
+                        <div class = "cell">
+                                <img src = "sample/nodejs.svg">
+                        </div>
+                        <div class = "cell">
+                                <img src = "sample/Npm-logo.svg">
+                            </div>                            
+                    </div>
+                    <!--3행-->
+                    <div class="row">
+                    <div class = "cell">
+                            <img src = "sample/C.png">
+                    </div>
+                    <div class = "cell">
+                            <img src = "sample/240px-ISO_C++_Logo.svg.png">
+                    </div>
+                    <div class = "cell">
+                            <img src = "sample/python.png">
+                    </div>                    
+                    </div>
+                    <div class="row">
+                            <div class = "cell">
+                                    <img src = "sample/724px-R_logo.svg.png">
+                            </div>
+                            <div class = "cell">
+                                    <img src = "sample/tensor.png">
+                            </div>
+                            <div class = "cell">
+                                    <img src = "sample/android.png">
+                            </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class = "skills-introduce">
+                    <p>
+                        제 프로그래밍의 첫 목표는 인공지능이었습니다.<br>C, Python 등의 언어를 공부한뒤에 R과 Tensorflow를 사용하는 법을 공부했습니다.
+주된 관심사는 AI였지만 결론적으로 서비스화 하기위해서 웹,앱에 대한 공부가 필요하다고 느껴 HTML, CSS, JavaScript를 독학으로 공부했습니다.
+Javascript의 여러 프레임워크중 React를 선택해서 공부하는 중이며 React-Native를 활용한 날씨와 영화 어플등을 제작해봤습니다.
+기타 알고리즘 문제풀이를 위해 C++을 공부했으며 Unity를 활용해 게임을 제작하는 등 흥미가 가는걸 공부하고있습니다.
+                    </p>
+                </div>
+                </div>
+            </section>
+
+            <!--portfolio 파트-->
+            <section class = "card card-portfolio" id="portfolio">
+                
+            </section>
+
+            <section class = "card card-experience" id="experience">
+                <h1>card-experience</h1>
+            </section>
+            <section class = "card card-contact" id="contact">
+                <h1>card-card-contact</h1>
+            </section>
+
+
+
+            <!--footer-->
+            <footer>
+                <p>Copyright 2019 'Jihyun'.<br>
+                    All rights reserved. </p>
+            </footer>
+            
+        </div>
     </body>
 </html>
